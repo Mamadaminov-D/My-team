@@ -1,0 +1,96 @@
+body {
+  font-family: 'Livvic', sans-serif;
+  background-color: #004047;
+
+}
+
+#deliver {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 85px;
+}
+
+.title_span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.big__list {
+  width: 350px;
+  height: 300px;
+  padding: 15px;
+  position: relative;
+}
+
+
+
+.big__list::before {
+  content:" ";
+  background-image: url('../img/aa.png');
+  position: absolute;
+  background-position: center ;
+  top: -5px;
+  left: 150px;
+  width: 67px;
+  height: 57px;
+  z-index: -1;
+}
+
+.txt {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.small__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.name {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.bg__post1 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-image: url('../img/bg_first.svg');
+  top: 0;
+  left: 0;
+}
+.bg__post2 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-image: url('../img/bg_second.svg');
+  bottom: 0;
+  right: 3px;
+}
